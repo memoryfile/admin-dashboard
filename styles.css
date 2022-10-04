@@ -28,21 +28,28 @@
 .header-menu {
   display: grid;
   grid-template-columns: repeat (auto, auto);
-  /* grid-template-rows: ; */
-  justify-content: space-evenly;
-  /* grid-auto-flow: column; */
   padding: 20px;
-  display: flex;
 }
 
-.user-menu {
+.header-menu2 {
+
+}
+
+.user-menu, .right-menu {
   display: flex;
   gap: 20px;
+  justify-content: space-evenly;
+}
+
+.right-menu {
+  justify-content: flex-end;
 }
 
 .search {
   /* display: grid;
   justify-content: left; */
+  display: flex;
+  justify-content: left;
 }
 
 /* Sidebar */
