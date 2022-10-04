@@ -32,7 +32,10 @@
 }
 
 .header-menu2 {
-
+  display: grid;
+  grid-template-columns: repeat (auto, auto);
+  grid-auto-flow: row;
+  padding: 20px;
 }
 
 .user-menu, .right-menu {
@@ -42,7 +45,6 @@
 }
 
 .right-menu {
-  justify-content: flex-end;
 }
 
 .search {
@@ -50,6 +52,10 @@
   justify-content: left; */
   display: flex;
   justify-content: left;
+}
+
+.welcome {
+  display: grid;
 }
 
 /* Sidebar */
