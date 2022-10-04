@@ -32,11 +32,11 @@
   justify-content: space-evenly;
   /* grid-auto-flow: column; */
   padding: 20px;
+  display: flex;
 }
 
 .user-menu {
   display: flex;
-  justify-content: space-evenly;
 }
 
 .search {
