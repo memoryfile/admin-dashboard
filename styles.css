@@ -25,25 +25,22 @@
   height: 50px;
   border-radius: 50%;
 }
-
-/* .bell {
-  opacity: 50%;
-  width: 50px;
-  height: 50px;
-} */
-
 .header-menu {
-  /* For proper alignment, rewatch Wes Bos video */
   display: grid;
   grid-template-columns: repeat (auto, auto);
+  /* grid-template-rows: ; */
+  justify-content: space-evenly;
   /* grid-auto-flow: column; */
+  padding: 20px;
 }
 
-.user
+.user-menu {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .search {
   display: grid;
-  padding: 20px;
   justify-content: left;
 }
 
