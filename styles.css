@@ -35,9 +35,11 @@
 .header-menu {
   /* For proper alignment, rewatch Wes Bos video */
   display: grid;
-  grid-template-columns: repeat (4, auto);
+  grid-template-columns: repeat (auto, auto);
   /* grid-auto-flow: column; */
 }
+
+.user
 
 .search {
   display: grid;
