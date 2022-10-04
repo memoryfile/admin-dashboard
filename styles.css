@@ -40,8 +40,8 @@
 }
 
 .search {
-  display: grid;
-  justify-content: left;
+  /* display: grid;
+  justify-content: left; */
 }
 
 /* Sidebar */
