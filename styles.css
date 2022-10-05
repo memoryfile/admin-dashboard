@@ -75,8 +75,11 @@ button {
   justify-content: left; */
   display: flex;
   justify-content: left;
-  height: 30px;
-  gap: 10px;
+  gap: 15px;
+}
+
+.search-box input {
+  border-radius: 15px;
 }
 
 .welcome {
