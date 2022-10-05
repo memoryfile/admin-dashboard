@@ -80,6 +80,8 @@ button {
 
 .search-box input {
   border-radius: 15px;
+  background-color: #f1f5f99c;
+  border-color: gray;
 }
 
 .welcome {
