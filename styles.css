@@ -75,6 +75,8 @@ button {
   justify-content: left; */
   display: flex;
   justify-content: left;
+  height: 30px;
+  gap: 10px;
 }
 
 .welcome {
