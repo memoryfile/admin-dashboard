@@ -48,7 +48,7 @@ button {
 }
 .header-menu {
   display: grid;
-  grid-template-columns: repeat (auto, auto);
+  grid-template-columns: repeat(2, 1fr);
   padding: 20px;
 }
 
@@ -86,7 +86,17 @@ button {
 
 .welcome {
   display: grid;
+  padding-left: 20px;
   justify-content: left;
+  text-align: left;
+}
+
+.interactions {
+  align-self: center;
+}
+
+.username2 {
+  font-size: 30px;
 }
 
 /* Sidebar */
