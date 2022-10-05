@@ -64,7 +64,7 @@ button {
   display: grid;
   justify-content: right;
   grid-template-columns: repeat(3, auto);
-  gap: 30px;
+  gap: 20px;
 }
 
 .search {
