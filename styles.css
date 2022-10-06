@@ -80,7 +80,7 @@ button {
   border-radius: 15px;
   background-color: #f1f5f99c;
   border-color: gray;
-  /* width: 500px; */
+  width: 50vw;
 }
 
 .welcome {
@@ -93,6 +93,11 @@ button {
 
 .interactions {
   align-self: center;
+}
+
+.username {
+  /* display: flex;
+  flex-wrap: nowrap; */
 }
 
 .username2 {
