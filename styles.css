@@ -157,7 +157,6 @@ button {
 
 .principle_headers {
   display: grid;
-  padding: 10px;
   font-size: 20px;
   text-align: left;
 }
