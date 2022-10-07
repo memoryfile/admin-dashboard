@@ -70,7 +70,8 @@ button {
 .right-menu {
   display: grid;
   justify-content: right;
-  grid-template-columns: repeat(3, auto);
+  /* Non-responsive username resizing, but a start */
+  grid-template-columns: 1fr 1fr 124px;
   gap: 20px;
 }
 
@@ -122,14 +123,20 @@ button {
 
 .top-sidebar-menu {
   display: grid;
+  /* grid-template-columns: 1fr; */
+  gap: auto;
   padding: 3vw;
 }
 
 .bottom-sidebar-menu {
   display: grid;
   padding: 3vw;
-  text-align: left;
-  justify-content: center;
+  /* text-align: left;
+  justify-content: center; */
+}
+
+.bottom-sidebar-menu li {
+  display: grid;
 }
 
 .greeting {
