@@ -123,16 +123,20 @@ button {
 
 .top-sidebar-menu {
   display: grid;
-  /* grid-template-columns: 1fr; */
-  gap: auto;
   padding: 3vw;
 }
 
 .bottom-sidebar-menu {
   display: grid;
-  padding: 3vw;
+  padding: 2vw;
+  /* Make room for icons */
+  margin-left: 20px;
   /* text-align: left;
   justify-content: center; */
+}
+
+.sidebar li {
+  margin: 15px;
 }
 
 .bottom-sidebar-menu li {
