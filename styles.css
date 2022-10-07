@@ -30,6 +30,7 @@ button {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin: .7vw;
 }
 
 /* Header */
@@ -129,10 +130,8 @@ button {
 .bottom-sidebar-menu {
   display: grid;
   padding: 2vw;
-  /* Make room for icons */
+  /* Make room for icons, ultimately will need to use two columns though */
   margin-left: 20px;
-  /* text-align: left;
-  justify-content: center; */
 }
 
 .sidebar li {
