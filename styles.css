@@ -148,23 +148,36 @@ button {
 
 /* Articles */
 .article {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
   grid-column: 2/2;
   grid-row: 2 / span 2;
+  padding: 10px;
+}
+
+.principle_headers {
+  display: grid;
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
 }
 
 /* Notices */
 
 .notices {
+  display: grid;
 }
 
 /* ✅ Announcements */
 .announcements {
+  display: grid;
   grid-column: 3/3;
   grid-row: 2/2;
 }
 
 /* ✅ Trending */
 .trending {
+  display: grid;
   grid-column: 3/3;
   grid-row: 3/3;
 }
