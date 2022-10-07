@@ -161,6 +161,11 @@ button {
   text-align: left;
 }
 
+.card {
+  display: grid;
+  background-color: #f5f3ff;
+}
+
 /* Notices */
 
 .notices {
