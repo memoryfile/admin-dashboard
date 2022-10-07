@@ -30,7 +30,7 @@ button {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin: .7vw;
+  margin: 0.7vw;
 }
 
 /* Header */
@@ -99,7 +99,7 @@ button {
 }
 
 .interactions {
-    /* Add gap between buttons */
+  /* Add gap between buttons */
   align-self: center;
   grid-column: 3;
 }
@@ -159,6 +159,7 @@ button {
   display: grid;
   font-size: 20px;
   text-align: left;
+  height: 3ch;
 }
 
 .card {
