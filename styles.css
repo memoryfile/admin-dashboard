@@ -220,3 +220,7 @@ button {
 .side-content > p {
   color: #747474;
 }
+
+.announce > .title {
+  font-weight: bolder;
+}
