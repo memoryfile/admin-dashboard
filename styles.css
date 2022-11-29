@@ -51,9 +51,11 @@ button {
 
 .avatar2 {
   vertical-align: middle;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 .header-menu {
@@ -120,6 +122,7 @@ button {
   grid-column: 1/1;
   display: grid;
   color: white;
+  font-size: x-large;
   font-weight: 900;
 }
 
