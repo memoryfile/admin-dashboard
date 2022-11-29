@@ -99,6 +99,7 @@ button {
   justify-content: left;
   text-align: left;
   grid-column: 2;
+  font-weight: bolder;
 }
 
 .interactions {
@@ -144,10 +145,6 @@ button {
 
 .bottom-sidebar-menu li {
   display: grid;
-}
-
-.greeting {
-  font-size: 12px;
 }
 
 /* Articles */
