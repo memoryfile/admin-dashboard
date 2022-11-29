@@ -159,15 +159,10 @@ button {
 }
 
 .principle_headers {
-  display: grid;
   font-size: 20px;
   text-align: left;
   height: 3ch;
-}
-
-.article-header {
   font-weight: bolder;
-  font-size: 20px;
 }
 
 .card {
