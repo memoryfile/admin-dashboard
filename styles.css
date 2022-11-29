@@ -152,6 +152,7 @@ button {
 .article {
   display: grid;
   grid-template-columns: repeat(2, minmax(250px, 1fr));
+  grid-template-rows: 3ch auto;
   padding: 50px;
   gap: 20px 50px;
   background-color: #e1e7ef;
@@ -165,6 +166,8 @@ button {
 }
 
 .article-header {
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .card {
