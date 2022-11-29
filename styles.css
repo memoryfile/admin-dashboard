@@ -202,9 +202,13 @@ button {
   margin: 10px;
 }
 
+.announce-wrapper {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
 .announce > p {
   padding: 20px;
-  background-color: #ffffff;
 }
 
 /* ✅ Trending */
@@ -216,9 +220,13 @@ button {
   margin: 20px;
 }
 
+.side-content-wrapper {
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
 .side-content {
   padding: 20px;
-  background-color: #ffffff;
   /* border-radius: 5px;  */
   /* border radius adds borders to every individual thing */
 }
