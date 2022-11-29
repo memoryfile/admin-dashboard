@@ -13,7 +13,7 @@
 
 button {
   /* Source: Edit of Button 6 from https://getcssscan.com/css-buttons-examples */
-  background-color: #06b6d4;
+  background-color: #1992D4;
   border-radius: 20px;
   border-width: 0;
   color: #ffffff;
@@ -35,7 +35,7 @@ button {
 
 /* Header */
 .header {
-  background-color: #e5e5e5;
+  background-color: #FFFFFF;
   text-align: right;
   grid-row: 1/2;
   grid-column: 2/4;
@@ -178,6 +178,7 @@ button {
 
 .notices {
   display: grid;
+  background-color: #E1E7EF;
 }
 
 /* ✅ Announcements */
