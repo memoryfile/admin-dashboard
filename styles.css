@@ -150,8 +150,6 @@ button {
 .article {
   display: grid;
   grid-template-columns: repeat(2, minmax(250px, 1fr));
-  /* grid-column: 2/2; */
-  /* grid-row: 2 / span 2; */
   padding: 50px;
   gap: 20px 50px;
 }
