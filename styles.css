@@ -74,10 +74,11 @@ button {
 
 .right-menu {
   display: grid;
-  justify-content: right;
+  /* justify-content: right; */
+  text-align: center;
   /* Non-responsive username resizing, but a start */
-  grid-template-columns: 1fr 1fr 124px;
-  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* gap: 20px; */
 }
 
 .search {
