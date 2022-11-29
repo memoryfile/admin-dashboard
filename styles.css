@@ -168,6 +168,8 @@ button {
   display: grid;
   background-color: #f5f3ff;
   padding: 10px;
+  border-left: thick solid;
+  border-left-color: #EFB429;
 }
 
 /* Notices */
