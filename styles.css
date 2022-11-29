@@ -167,8 +167,7 @@ button {
 .card {
   display: grid;
   background-color: #f5f3ff;
-  /* grid-row: 1;
-  grid-column: 1 / 2; */
+  padding: 10px;
 }
 
 /* Notices */
