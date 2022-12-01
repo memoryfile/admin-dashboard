@@ -143,8 +143,6 @@ button {
 .bottom-sidebar-menu {
   display: grid;
   padding: 2vw;
-  /* grid-template-columns: repeat(2, 1fr); */
-  /* Make room for icons, ultimately will need to use two columns though */
   margin-left: 20px;
 }
 
@@ -154,6 +152,12 @@ button {
 
 .bottom-sidebar-menu li {
   display: grid;
+}
+
+.bottom-sidebar-menu > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 /* Articles */
