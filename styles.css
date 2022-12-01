@@ -67,7 +67,8 @@ button {
 
 .header-menu {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* Condense right-menu by having three columns */
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 20px;
 }
 
@@ -142,6 +143,7 @@ button {
 .bottom-sidebar-menu {
   display: grid;
   padding: 2vw;
+  /* grid-template-columns: repeat(2, 1fr); */
   /* Make room for icons, ultimately will need to use two columns though */
   margin-left: 20px;
 }
