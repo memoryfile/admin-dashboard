@@ -227,6 +227,8 @@ button {
 }
 
 .side-content {
+  display: grid;
+  grid-template-columns: .5fr 1fr;
   padding: 20px;
   /* border-radius: 5px;  */
   /* border radius adds borders to every individual thing */
