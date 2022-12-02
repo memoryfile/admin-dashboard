@@ -148,10 +148,6 @@ button {
   grid-template-rows: 1fr 1fr;
 }
 
-.sidebar li {
-  margin: 15px;
-}
-
 /* Articles */
 .article {
   display: grid;
