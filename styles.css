@@ -144,16 +144,12 @@ button {
   display: grid;
   padding: 2vw;
   margin-left: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .sidebar li {
   margin: 15px;
-}
-
-.bottom-sidebar-menu > ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 /* Articles */
