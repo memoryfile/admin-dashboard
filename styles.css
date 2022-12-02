@@ -228,10 +228,9 @@ button {
 
 .side-content {
   display: grid;
+  /* Could I set to .2fr and add spacing between the pictures and text? */
   grid-template-columns: .3fr 1fr;
   padding: 20px;
-  /* border-radius: 5px;  */
-  /* border radius adds borders to every individual thing */
 }
 
 .side-content > img {
