@@ -142,7 +142,7 @@ button {
 
 .bottom-sidebar-menu {
   display: grid;
-  padding: 2vw;
+  padding: 10px;
   margin-left: 20px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
