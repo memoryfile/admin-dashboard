@@ -183,8 +183,11 @@ button {
 
 .card > .actions {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-area: 10;
+  grid-template-columns: 1fr 30px 30px;
+  grid-row-start: 8;
+  grid-column-start: 1;
+  justify-items: right;
+  gap: 20px;
 }
 
 /* Notices */
