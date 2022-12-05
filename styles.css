@@ -143,9 +143,8 @@ button {
 
 .bottom-sidebar-menu {
   display: grid;
-  padding: 15px;
+  padding: 30px;
   gap: 15px;
-  margin-left: 15px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
