@@ -184,8 +184,7 @@ button {
 .card > .actions {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* padding-left: 350px;
-  padding-top: 150px; */
+  grid-area: 10;
 }
 
 /* Notices */
