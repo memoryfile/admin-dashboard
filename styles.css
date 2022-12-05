@@ -89,7 +89,8 @@ button {
 }
 
 .search {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: left;
   gap: 15px;
   padding: 20px;
