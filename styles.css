@@ -81,10 +81,12 @@ button {
 
 .right-menu {
   display: grid;
+  justify-content: right;
+  grid-template-columns: 1fr 1fr 1fr;
   /* justify-content: right; */
   text-align: center;
   /* Non-responsive username resizing, but a start */
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
   /* gap: 20px; */
 }
 
