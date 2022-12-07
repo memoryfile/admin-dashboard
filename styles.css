@@ -68,7 +68,7 @@ button {
 .header-menu {
   display: grid;
   /* Condense right-menu by having three columns */
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   padding: 20px;
 }
 
