@@ -67,8 +67,7 @@ button {
 
 .header-menu {
   display: grid;
-  /* Condense right-menu by having three columns */
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   padding: 20px;
 }
 
@@ -80,6 +79,8 @@ button {
 }
 
 .right-menu {
+  padding-right: 20px;
+  grid-column: 3;
   display: grid;
   justify-content: right;
   grid-template-columns: 1fr 1fr 1fr;
@@ -87,6 +88,10 @@ button {
   gap: 25px;
   /* padding: 10px; */
   text-align: center;
+}
+
+.right-menu > * {
+  display: grid;
 }
 
 /* .search {
