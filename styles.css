@@ -83,11 +83,9 @@ button {
   display: grid;
   justify-content: right;
   grid-template-columns: 1fr 1fr 1fr;
-  /* justify-content: right; */
+  grid-template-columns: repeat(3, minmax(10%, 10%));
+  gap: 10px;
   text-align: center;
-  /* Non-responsive username resizing, but a start */
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* gap: 20px; */
 }
 
 /* .search {
