@@ -20,10 +20,11 @@ hr {
 
 button {
   /* Source: Edit of Button 6 from https://getcssscan.com/css-buttons-examples */
-  background-color: #1992d4;
+  background-color: #7DD3FC;
   border-radius: 20px;
-  border-width: 0;
-  color: #ffffff;
+  /* border-width: 0; */
+  border: 3px solid rgba(255, 255, 255, 0.589);
+  color: black;
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
@@ -125,7 +126,7 @@ button {
   color: #000000;
 }
 
-.searchButton {
+/* .searchButton {
   width: 40px;
   height: 36px;
   border: 1px solid #00B4CC;
@@ -135,7 +136,7 @@ button {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
-}
+} */
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
