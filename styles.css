@@ -15,7 +15,7 @@ hr {
 
 .container {
   display: grid;
-  grid-template-columns: .2fr 3fr 1fr;
+  grid-template-columns: 0.2fr 3fr 1fr;
 }
 
 button {
@@ -232,8 +232,8 @@ button {
 
 .side-content {
   display: grid;
-  /* Could I set to .2fr and add spacing between the pictures and text? */
-  grid-template-columns: .3fr 1fr;
+  grid-template-columns: max-content 1fr;
+  gap: 25px;
   padding: 20px;
 }
 
