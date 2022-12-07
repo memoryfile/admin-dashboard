@@ -100,7 +100,7 @@ button {
 
 .search {
     /* Source for the search box as a whole: https://codepen.io/huange/pen/bGqMqM */
-  width: 100%;
+  width: 130%;
   position: relative;
   display: flex;
 }
