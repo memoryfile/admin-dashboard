@@ -84,7 +84,8 @@ button {
   justify-content: right;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(3, minmax(10%, 10%));
-  gap: 10px;
+  gap: 25px;
+  /* padding: 10px; */
   text-align: center;
 }
 
