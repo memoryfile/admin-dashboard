@@ -202,8 +202,11 @@ button {
   display: grid;
   grid-template-columns: repeat(2, minmax(250px, 1fr));
   grid-template-rows: 3ch auto;
-  padding: 50px;
-  gap: 20px 50px;
+  /* padding: 50px; */
+  padding-left: clamp(5px, 40px, 50px);
+  padding-bottom: clamp(5px, 40px, 50px);
+  padding-top: clamp(5px, 15px, 15px);
+  gap: 20px clamp(5px, 30px, 50px);
   background-color: #e1e7ef;
 }
 
