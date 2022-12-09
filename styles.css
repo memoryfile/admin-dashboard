@@ -214,7 +214,7 @@ button {
   padding-bottom: clamp(5px, 40px, 50px);
   padding-top: clamp(5px, 15px, 15px);
   gap: 20px clamp(5px, 30px, 50px);
-  background-color: #e1e7ef;
+  background-color: #E2E8F0;
 }
 
 .principle_headers {
@@ -260,8 +260,7 @@ button {
   display: grid;
   grid-column: 3/3;
   grid-row: 2/2;
-  padding: 10px;
-  /* text-align: center; */
+  padding: 30px;
   margin: 10px;
 }
 
@@ -272,6 +271,12 @@ button {
 
 .announce > p {
   padding: 20px;
+  padding-top: 10px;
+}
+
+.announce > .title {
+  padding-bottom: 0px;
+  font-size: large;
 }
 
 /* ✅ Trending */
