@@ -1,5 +1,7 @@
 # admin-dashboard
 
+An admin dashboard prototype in pure HTML and CSS. Click [here](https://memoryfile.github.io/admin-dashboard) to view the demo, or view this photo for a zoomed-out version:
+ 
 ![Screenshot from 2022-12-08 19-02-29](https://user-images.githubusercontent.com/96447025/206592271-4b884644-8cab-4070-8969-be8bbeaf0ac4.png)
 
 ## Credits
