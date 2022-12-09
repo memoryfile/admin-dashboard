@@ -272,11 +272,13 @@ button {
 .announce > p {
   padding: 20px;
   padding-top: 10px;
+  color: gray
 }
 
 .announce > .title {
   padding-bottom: 0px;
   font-size: large;
+  color: black;
 }
 
 /* ✅ Trending */
